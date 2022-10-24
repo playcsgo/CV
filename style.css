@@ -32,37 +32,44 @@ main {
 }
 
 h2 {
-  font-size: 32px;
-  margin: 24px 0 8px 0;
+  font-size: 16px;
+  margin: 8px 0 8px 0;
 }
 h3 {
-  font-size: 21px;
+  font-size: 16px;
   margin: 0 0 8px 0;
   font-weight: 500;
 }
 section {
-  margin-bottom: 38px;
+  margin-bottom: 10px;
 }
 p {
   color: #666666;
+  font-size: 14px;
 }
 
 /* Personal Info */
+
 .avatar {
-  text-align: center;
+  /*text-align: center; */
+  display:flex;
+  justify-content: center;
+
 }
 
 .avatar-img {
   border-radius: 50%;
+  height: 100px;
+  width: 100px;
 }
 .name {
   text-align: center;
-  font-size: 32px;
-  margin: 20px 0;
+  font-size: 20px;
+  margin-top: 20px;
 }
 .social-media {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .social-media-link {
   color: #999999;
@@ -73,11 +80,11 @@ p {
   color: #ff6600;
 }
 .p-title {
-  margin-bottom: 20px;
   text-align: center;
   font-size: 14px;
   letter-spacing: 2px;
   color: #ff6600;
+  margin: 0 5px;
 }
 
 /* skill section */
@@ -96,12 +103,20 @@ hr {
   border: 0px;
   height: 1px;
   background-color: #cccccc;
-  margin: 20px 0;
+  margin: 5px 0;
 }
 .company,
 .duration {
   color: #666666;
-  font-size: 12px;
+  font-size: 10px;
   margin-left: 5px;
   margin-right: 20px;
+}
+.exp-item {
+  display: flex;
+  justify-content:space-evenly;
+  
+}
+.exp-list {
+  width: 350px;
 }
