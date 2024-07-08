@@ -1,6 +1,6 @@
 <header>
   <meta charset="utf-8" />
-  <title>Sam CV</title>
+  <title>Sam CV_EN</title>
   <link href="style.css" rel="stylesheet" type="text/css" media="all"/>
   <script src="https://kit.fontawesome.com/b0f88e8f9d.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -11,13 +11,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Noto+Sans+TC&display=swap" rel="stylesheet">
     <nav>
       <span class="nav-title">
-        呂兆中 (Sam Lu)_2024
+        CHAO-CHUNG LU (Sam Lu)
       </span>
       <div>
-        <a href="/" class="mx-2">中文履歷</a>
-        <a href="Sam_CV_en.htm" class="mx-2">CV</a>
+        <a href="/CV/" class="mx-2">中文履歷</a>
+        <a href="/CV/Sam_CV_en.htm" class="mx-2">CV</a>
       </div>
-      <a href="https://playcsgo.github.io/CV/Sam_CV.pdf" class="nav-link" download="Sam_CV.pdf">
+      <a href="https://playcsgo.github.io/CV/Sam_CV_EN.pdf" class="nav-link" download="Sam_CV_EN.pdf">
         <i class="fa-solid fa-print"></i>
       </a>
     </nav>
@@ -28,7 +28,7 @@
         <img class="avatar-img" src="photo_1.jpg" alt="">
         <div>
           <h2 class="name px-3">
-            Sam Lu (呂兆中)
+            Sam Lu (CHAO-CHUNG LU)
           </h2>
           <div class="social-media">
             <a class="social-media-link" href="https://github.com/playcsgo" target="_blank">
@@ -60,24 +60,23 @@
         <a href="https://www.brunel.ac.uk/" class="text-decoration-none">
           <i class="fas fa-graduation-cap"></i>
         </a>
-        畢業於Brunel Uni, Uk (2012), 機械工程,碩士。 之前的工作領域是製造業，NIP(新品導入)以及供應鏈管理。本身對程式設計以及coding很有興趣，較熟悉Node.jS Express後端相關的應用技術。想尋找後端/全端junior engineer的工作。
+        Master of UK, Brunel Uni. Major in mechanical engineering. Engaged in the manufacturing industry and specialize in NPI and supply chain development and management. Interested in coding and pursuing junior backend engineer.
       </div>
     </section>
 
     <section class="skill-section my-3">
-      <h2>作品與應用技術</h2>
+      <h3>Projects and Technologies Applied</h3>
       <div class="skills">
         <div class="skill">
           <h4 class="skill-name d-flex justify-content-between">
-            <a href="https://playcsgo.life/signin" class="text-decoration-none">餐廳評論王</a>
-            <a href="./files/restaurant_sch.png" class="text-decoration-none" target="_blank">架構</a>
+            <a href="https://playcsgo.life/signin" class="text-decoration-none">Forum</a>
+            <a href="./files/restaurant_sch.png" class="text-decoration-none" target="_blank">SCH</a>
           </h4>
           <ul class="p-0">
-            <p><strong>基本登入, 評論, 點讚, 收藏餐廳, 追隨用戶, 最新動態, 即時排名。</strong></p>
-            <p><strong>使用Redis cache - 減少api響應時間595ms -> 49ms。</strong></p>
-            <p><strong>使用動態屬性查詢 - 減少資料庫操作以及server-db傳輸</strong></p>
+            <p><strong>basic forum functions: login, like, follow, feeds, run-time ranking</strong></p>
+            <p><strong>Redis cache - Reduce API response time from 595ms to 49ms.</strong></p>
+            <p><strong>Use dynamic attribute queries to reduce database operations and server-to-database transmissions.</strong></p>
           </ul>
-          
           <ul class="s-description my-2">
             <li>Full Stack app</li>
             <li>Express (Node.js)</li>
@@ -93,14 +92,13 @@
         <div class="skill">
           <h4 class="skill-name d-flex justify-content-between">
             <a href="https://playcsgo.github.io/twitter_frontend" class="text-decoration-none">Coffee Talk</a>
-            <a href="./files/coffee_sch.png" class="text-decoration-none" target="_blank">架構</a>
+            <a href="./files/coffee_sch.png" class="text-decoration-none" target="_blank">SCH</a>
           </h4>
           <ul class="p-0">
-            <p><strong>社群網站基本功能 留言, 回文, 追蹤, 最新動態, 熱門推薦</strong></p>
-            <p><strong>前後端分離  小組協作專案</strong></p>
-            <p><strong>資料庫從AWS-MySQL 因費用考量 遷移至Render_postgreSQL</strong></p>
+            <p><strong>basic twitter functions: post tweet, reply, follow, feeds, suggesting</strong></p>
+            <p><strong>Frontend and backend separation for team collaboration project</strong></p>
+            <p><strong>Due to cost considerations, the database will be migrated from AWS MySQL to Render PostgreSQL.</strong></p>
           </ul>
-          
           <ul class="s-description my-2">
             <li>Frontend-Backend separated app</li>
             <li>4-person group project</li>
@@ -114,18 +112,19 @@
           </ul>
         </div>
         <div class="skill">
-          <h5 class="skill-name d-flex justify-content-between" >
-            <span class="mx-0"><a href="https://nafany.online" class="text-decoration-none">記帳本</a></span>
+          <h4 class="skill-name d-flex justify-content-between" >
+            <span class="mx-0"><a href="https://nafany.online" class="text-decoration-none">Ledger</a></span>
             <span class="mx-0">&</span>
-            <span class="mx-0"><a href="https://nafany.online/pos" class="text-decoration-none">POS機</a></span>
-            <span><a href="./files/azure_sch.png" class="text-decoration-none" target="_blank">架構</a></span>
-          </h5>
+            <span class="mx-0"><a href="https://nafany.online/pos" class="text-decoration-none">POS</a></span>
+            <span><a href="./files/azure_sch.png" class="text-decoration-none" target="_blank">SCH</a></span>
+          </h4>
           <ul class="p-0">
-            <p><strong>兩個基礎應用, 運行在同一個Azure VM上</strong></p>
-            <p><strong>利用Docker打包不同環境的app</strong></p>
-            <p><strong>利用Ansible設定 虛擬機 環境</strong></p>
-            <p><strong>利用Nginx進行分流</strong></p>
+            <p><strong>Two basic applications running on the same Azure VM</strong></p>
+            <p><strong>Docker to package apps for different environments</strong></p>
+            <p><strong>Ansible to configure the vm environment</strong></p>
+            <p><strong>Nginx for assign ports for 2 apps</strong></p>
           </ul>
+        
           <ul class="s-description my-2">
             <li>mongoDB</li>
             <li>Ansible</li>
@@ -134,13 +133,15 @@
             <li>Docker</li>
             <li>Azure VM</li>
           </ul>
-          <h5><a href="https://playcsgo.github.io/card_game/" class="mx-1">翻牌遊戲</a></h5>
-          <p>Static Website + DOM</p>
+          <h6><a href="https://playcsgo.github.io/card_game/" class="mx-1 text-decoration-none fw-bold">Card Game</a></h6>
+          <ul>
+            <li>Static Website + DOM</li>
+          </ul>
         </div>
       </div>
     </section>
     <section class="work-exp">
-      <h2 class="exp-title">工作經歷</h2>
+      <h2 class="exp-title">Work Experience</h2>
       <div>
         <span>
           <a href="https://plum.wine/" target="_blank">
@@ -148,15 +149,15 @@
           </a> 
           PLUM INC (USA)
         </span>
-        <span><i class="fa-sharp fa-solid fa-calendar-days"></i> 2018年6月-2022</span>
+        <span><i class="fa-sharp fa-solid fa-calendar-days"></i> 2018 Jun.- 2022 Oct.</span>
         <span> | Reliability Engineer & Site Manager</span>
         <div class="">
           <ol>
-            <li class="my-1">PLUM中國區駐廠代表，成為Bosch的合格供應商，使PLUM取得Boshch的訂單與投資</li>
-            <li class="my-1">合理的定義零部件需要的規格以及設計相符的測試， 使產品在NPI階段花費下降15%</li>
-            <li class="my-1">撰寫測試計畫與設置實驗室及產線測試站，使生產線直通率由60%提升到90%</li>
-            <li class="my-1">備品、替代品零部件開發搜尋，降低量產零部件成本8%</li>
-            <li class="my-1">紀錄產線以及供應商不良情形，與設計師討論後進行設計變更以提升良率</li>
+            <li class="my-1">Lead supplier audits and get Bosch’s order and investment by robust supplier chain design, completed PPAP, coherent FMEA and PFMEA.</li>
+            <li class="my-1">Reduce cost at NPI stage 15% by defining reasonable component specifications and qualified by customized tests.</li>
+            <li class="my-1">Design test plan, set up a local test dept. to Increase YPR(First Pass Yield) from 60% to 90%.</li>
+            <li class="my-1">Second and local parts sources development to reduce around 8% cost after first MP stage.</li>
+            <li class="my-1">Summarized CM and supplier feedback and transfer into design changes to remove NG risks.</li>
           </ol>
         </div>
       </div>
@@ -166,16 +167,16 @@
           <a href="http://www.sirtec.com.tw/index.php?option=com_content&task=view&id=89&Itemid=93" target="_blank">
             <i class="fa-solid fa-building"></i>
           </a> 
-          協益電子
+          SIRTEC INTERNATIONAL
         </span>
-        <span><i class="fa-sharp fa-solid fa-calendar-days"></i> 2016年9月-2017年12月</span>
-        <span> | 供應鏈開發工程</span>
-        <div class="exp-item">
+        <span><i class="fa-sharp fa-solid fa-calendar-days"></i> 2016 Sep.- 2017 Dec.</span>
+        <span> | Supplier Development Engineer and SQE</span>
+        <div class="">
           <ol>
-            <li class="my-1">負責開發採購機構件與電子件如: LCD顯示屏、觸控屏、電子線、連接器、馬達、絞鍊、隔熱泡沫、包材、電源、電路板、塗層、高壓鋼瓶</li>
-            <li class="my-1">建立實驗室: 場地規劃、設備採購、制定測試計畫、測試SOP與表格制定、人員訓練</li>
-            <li class="my-1">以品質角度提出設計變更，審核工程設計變更已確保變更後產品符合認證要求</li>
-            <li class="my-1">擔任駐美國返工團隊技術總監</li>
+            <li class="my-1">Sourcing of mechanical and electrical parts like: LCD, touch panel, connector and cable, motors, hinge, insulating foam, package, power supply, PCBA, coating, pressure tank.</li>
+            <li class="my-1">Establish test team, venue planning, define equipment spec and purchasing, test plan design, test method and documentation, training.</li>
+            <li class="my-1">DFM to increase FPY and comply with UL, FCC/IC, CE requirements DVT stage.</li>
+            <li class="my-1">Technician representative during local field service in the USA.</li>
           </ol>
         </div>
       </div>
